@@ -15,5 +15,6 @@ public class App
         System.out.println( "Hello World!" );
         var anna = new Customer(101L, "Anna", "Smith", LocalDate.of(1980, 1, 1));
         System.out.println(anna);
+        System.out.println(anna.getFirstName());
     }
 }
